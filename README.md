@@ -1,2 +1,2 @@
 # My Arduino
-This repository contains all the codes related to my Arduino IDE Mini Projects
+This repository contains all the codes related to my Arduino IDE Mini Projects (will be ready soon)
