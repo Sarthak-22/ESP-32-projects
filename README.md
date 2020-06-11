@@ -1,2 +1,2 @@
-# My Arduino
-This repository contains all the codes related to my Arduino IDE Mini Projects (will be ready soon)
+# ESP32
+This repository contains all the codes related to __ESP32__ starting from the basics and touching the advanced ones using __Arduino IDE__  (under construction)
