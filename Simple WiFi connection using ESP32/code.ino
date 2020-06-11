@@ -1,4 +1,4 @@
-#include <WiFi.h> //Include WiFi library to establish secure Wifi connection for your ESP32/ESP8266
+#include <WiFi.h> //Include WiFi library to establish secure Wifi connection with your ESP32/ESP8266
 
 const char* ssid = "________"; // Enter your network name
 const char* pass = "________"; // Enter your network password
