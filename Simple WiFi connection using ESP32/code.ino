@@ -22,7 +22,7 @@ void loop()
 {
   if (WiFi.status() == WL_CONNECTED)
   {
-     Serial.println("You can ping me"); // To check the connection status, open the command prompt and enter "ping <above returned IP address>" 
+     Serial.println("You can ping me"); // To check the connection status, open the command prompt and enter "ping <IP address>" 
      delay(500);
   }
   else
