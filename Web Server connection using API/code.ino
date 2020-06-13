@@ -3,12 +3,12 @@
 #include <Arduino_JSON.h> // This Arduino library is used to parse and decode JSON files/objects. 
 
 //Enter your network credentials
-const char* ssid = "bhavesh v2";
-const char* pass = "9821087287";
+const char* ssid = "________";
+const char* pass = "________";
 
-String APIkey = "22f1d2b02eb187197f60fe09413d58b7";  // Enter the API key that allows you to access data in JSON format from a web page.
-String city = "Mumbai";
-String countryCode = "IN";
+String APIkey = "__________________";  // Enter the API key that allows you to access data in JSON format from a web page.
+String city = "______";
+String countryCode = "___";
 
 String serverpath = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "," + countryCode + "&APPID=" + APIkey; // The path of web server from where the data would be data extracted. As an example, we use the 'openweathermap.org' as the web server and its free API key.
 
