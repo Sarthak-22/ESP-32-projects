@@ -1,8 +1,8 @@
 #include <WiFi.h> // Include the WiFi library to make connection with webserver
 
 // Enter your network credentials
-const char* ssid = "bhavesh v2";
-const char* pass = "9821087287";
+const char* ssid = "__________";
+const char* pass = "__________";
 
 WiFiServer server(80); // This command instructs the ESP32 to create a server at port 80 which is essentially a webserver
 String header; // Variable to store the http requests and outputs the process at the backend of the server.
