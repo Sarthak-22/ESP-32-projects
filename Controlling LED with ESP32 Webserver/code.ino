@@ -10,8 +10,8 @@ String header; // Variable to store the http requests and outputs the process at
 String output26state = "off"; // Auxiliar variables to control the current output state
 String output27state = "off"; //   "         "       "    "     "     "      "      "
 
-const int output26 = 18; // Indicates the position of the outpins 
-const int output27 = 19;
+const int output26 = 26; // Indicates the position of the outpins 
+const int output27 = 27;
 
 unsigned long currentTime = millis(); 
 unsigned long previousTime = 0;
