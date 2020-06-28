@@ -35,14 +35,14 @@ void setup()
 
   Firebase.reconnectWiFi(true);
 
-  if (Firebase.setString(firebaseData,"/RED","OFF"))
+  if (Firebase.setString(firebaseData,"/RED","OFF")) // Returns a boolean value if it successfully sets a string node "RED" with value "OFF"
   {
     Serial.println("Create RED LED node success");
   }
   else 
   {
     Serial.println("Create RED LED node failed");
-    Serial.println(firebaseData.errorReason());
+    Serial.println(firebaseData.errorReason()); // Displays the error reason
   }
 
   if (Firebase.setString(firebaseData,"/GREEN","OFF"))
@@ -58,11 +58,11 @@ void setup()
 
 void loop() 
 {
-  if(Firebase.getString(firebaseData,"/RED"))
+  if(Firebase.getString(firebaseData,"/RED")) // Returns a boolean value if it successfully receives a string value from the "RED" string node in the database
   {
     Serial.println("GET RED LED DATA SUCCESS");
    
-      String val1 = firebaseData.stringData();
+      String val1 = firebaseData.stringData(); // Gets the value from that particular string node and stores it in string variable "val1"
       //Serial.println(val1);
       if (val1 == "ON")
       {
