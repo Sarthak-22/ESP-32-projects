@@ -7,12 +7,12 @@ const int led1 = 18;
 const int led2 = 19;
 
 // Enter your WiFi network credentials
-const char* ssid = "bhavesh v2";
-const char* pass = "9821087287";
+const char* ssid = "__________";
+const char* pass = "__________";
 
 // Enter your Firebase database host and secret key.
-const char* Firebase_host = "esp32-led-f544c.firebaseio.com";
-const char* Firebase_auth = "4rSAT6IXB875j6Ih3bw7KnfkoOYT0Vnsfa570Xp3";
+const char* Firebase_host = "esp32-led-***.firebaseio.com";
+const char* Firebase_auth = "4rSAT6IXB875j6Ih3bw***********";
 
 void setup() 
 {
